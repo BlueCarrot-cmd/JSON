@@ -1,14 +1,35 @@
 {
-    "posts": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      { "id": 3, "title": "Post 3" }
+    "microserviceSelection": [
+        {
+            "microserviceSelectionStatusList": [
+              {
+                "serviceName": "payment-service",
+                "selected": true
+              },
+              {
+                "serviceName": "checkout-service",
+                "selected": true
+              },
+              {
+                "serviceName": "cart_service",
+                "selected": true
+              }
+            ]
+          }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
-  }
+    "timeRange": [
+        {
+            "availableTimeUnits": [
+              {
+                "name": "hours",
+                "minValue": 1,
+                "maxValue": 24
+              }
+            ],
+            "selectedTimeUnit": {
+              "timeUnit": "hours",
+              "value": 13
+            }
+          }
+    ]
+}
