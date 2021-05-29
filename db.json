@@ -8,7 +8,7 @@
               },
               {
                 "serviceName": "checkout-service",
-                "selected": true
+                "selected": false
               },
               {
                 "serviceName": "cart_service",
