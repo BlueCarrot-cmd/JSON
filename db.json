@@ -38,12 +38,5 @@
         {"item": "schoki"}
     ],
     "todo-backend": [
-        {
-            "title": "hallo";
-            "order": "1";
-            "id": "0";
-            "completed": "false";
-            "url": "test";
-        }
     ]
 }
